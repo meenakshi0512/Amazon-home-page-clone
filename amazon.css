@@ -1,0 +1,261 @@
+*{
+    padding:0;
+    margin:0;
+    border:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color:black;
+    color:white;
+    height:60px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:165px;
+}
+.logo{
+    background-image:url("amazon.jpg");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+.border:hover{
+    border:1px solid white;
+}
+.border2:hover{
+    border: 1px solid white;
+    margin-bottom:10px;
+}
+.nav-loc{
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:5px;
+    height:40px;
+    width: 185px;
+}
+.add-first{
+   padding-left:14px;
+   font-size: 12px;
+   color: #cccccc;
+}
+.add-icon{
+   display:flex;
+}
+.add-second{
+    font-size:14px;
+}
+.nav-search{
+    padding-top:10px;
+    padding-bottom:10px;
+    width:400px;
+    display:flex;
+}
+.drag{
+    width:50px;
+    border:1px solid transparent;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border-right:1px solid grey;
+    background-color:rgb(223, 209, 209);
+    padding-left:5px;
+}
+.box{
+    width:324px;
+    border:1px solid transparent;
+    font-size:15px;
+}
+.search-icon{
+    width:27px;
+    background-color:rgba(255, 166, 0, 0.849);
+    padding-top:10px;
+    padding-left:14px;
+    border:1px solid transparent;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border-left:1px solid grey;
+    color:black;
+}
+.sign{
+    width:170px;
+    padding-left:20px;
+    padding-top:10px;
+    height:40px;
+}
+.sign-in{
+    font-size:12px;
+}
+.account{
+    font-size:14px;
+    display:flex;
+}
+.select-account{
+    background-color:black;
+    color:rgb(202, 181, 181);
+    border:none;
+}
+.return-order{
+    width:110px;
+    padding-top:10px;
+    padding-left:20px;
+    height:40px;
+}
+.return{
+    font-size:12px;
+}
+.order{
+    font-size:14px;
+}
+.cart{
+    padding-top:10px;
+    width:80px;
+    padding-left:10px;
+    display:flex;
+    height:40px;
+}
+.cart-icon{
+    font-size:26px;
+}
+.cart-text{
+    padding-top:15px;
+    font-size:15px;
+}
+.navbar2{
+    height:45px;
+    background-color:rgb(36, 29, 56);
+    display:flex;
+    color:white;
+    justify-content:space-evenly;
+}
+.menu{
+    display:flex;
+    padding-top:10px;
+}
+.menu-icon{
+    padding-left:10px;
+    font-weight:500;
+}
+.text{
+    padding-left:5px;
+    padding-right:10px;
+}
+.Amazon-Mini,.Sell,.Best-sellers,.Today,.Mobiles,.New,.New-launch{
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:14px;
+}
+.bg{
+    background-image:url("1.jpg");
+    background-size:cover;
+    justify-content: space-evenly;
+    height: 350px;
+}
+.shop1{
+    display:flex;
+    background-color:rgb(197, 128, 139);
+    justify-content: space-evenly;
+}
+.item{
+    height:400px;
+    width:300px;
+    margin-left:25px;
+    margin-top:-90px;
+    background-color:white;
+}
+.item1{
+    height:400px;
+    width:300px;
+    margin-left:25px;
+    margin-top:30px;
+    background-color:white;
+}
+.item2{
+    height:275px;
+    width:100%;
+    margin-right:29px;
+    margin-left:25px;
+    margin-top:30px;
+    background-color:white;
+}
+.text{
+    font-size:23px;
+    padding:10px;
+}
+.img1{
+    background-image:url("3.jpg");
+    background-size:cover;
+    height:300px;
+    padding-left:10px;
+}
+.img2{
+    background-image:url("28.jpg");
+    background-size:cover;
+    height:300px;
+    padding-left:10px;
+}
+.img3{
+    background-image:url("Capture.PNG");
+    background-size:cover;
+    height:300px;
+    padding-left:10px;
+}
+.img4{
+    background-image:url("12.PNG");
+    background-size:cover;
+    height:300px;
+    padding-left:10px;
+}
+.img5{
+    background-image:url("6.jpg");
+    background-size:cover;
+    height:300px;
+    padding-left:10px;
+}
+.img6{
+    background-image:url("8.jpg");
+    background-size:cover;
+    height:300px;
+    padding-left:10px;
+}
+.img7{
+    background-image:url("29.jpg");
+    background-size:cover;
+    height:200px;
+    padding-left:10px;
+}
+.img8{
+    background-image:url("7.jpg");
+    background-size:cover;
+    height:200px;
+    padding-left:10px;
+    margin-bottom:50px;
+}
+.panel1{
+    width:100%;
+    background-color:#37475a;
+    height:40px;
+    color:white;
+    padding-top:10px;
+    padding-left:48%;
+}
+.panel2{
+    background-color:rgb(36, 29, 56);
+    height:200px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    color:white;
+    padding-top:50px;
+}
+.shop12{
+    background-color:rgb(197, 128, 139);
+    height:50px;
+}
+ul li{
+    list-style-type:none;
+    Font-size:0.85rem;
+    color:#dddddd;
+    margin-top:10px;
+}
